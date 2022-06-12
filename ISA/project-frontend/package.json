@@ -1,0 +1,72 @@
+{
+  "name": "project-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 8082",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@fullcalendar/core": "^5.10.1",
+    "@fullcalendar/daygrid": "^5.10.1",
+    "@fullcalendar/interaction": "^5.10.1",
+    "@fullcalendar/timegrid": "^5.10.1",
+    "@fullcalendar/vue3": "^5.10.1",
+    "@popperjs/core": "^2.11.2",
+    "@vue/composition-api": "^1.6.2",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.8.0",
+    "core-js": "^3.6.5",
+    "fullcalendar": "^5.11.0",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.3",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^13.0.0",
+    "sweetalert": "^2.1.2",
+    "v-calendar": "^3.0.0-alpha.6",
+    "vue": "^3.0.0",
+    "vue-basic-alert": "^1.1.0",
+    "vue-chart-3": "^3.1.8",
+    "vue-date-pick": "^1.4.1",
+    "vue-router": "^4.0.12",
+    "vue-sweetalert2": "^5.0.5",
+    "vue-upload-multiple-image": "^1.1.6",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "prettier": "^2.2.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "@vue/prettier",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
